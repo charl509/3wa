@@ -1,0 +1,43 @@
+
+html {font-size: 80%}
+
+body {
+	font-family: "Bodega Sans", arial, sans-serif;
+	src: url("font/BodegaSans_Black.ttf");
+	color: white;
+	background-color: blue;
+	background-image: url("../img/terre.jpg");
+	background-size: 120rem;
+}
+
+header {
+	text-align: center;
+}
+ 
+h1 {
+	color: green; 
+}
+h2 {
+color: red;
+}
+h3 {
+	color: blue;
+}
+
+.container {
+	max-width: 1500px;
+	padding: 25px;
+	margin: 0 auto;
+}
+/* SLIDER */
+.slider {
+	padding: 0;
+	background-color: black;
+	margin: 50px auto 0;
+	box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+.flexslider {
+	margin: 0;
+	border: 0;
+}
