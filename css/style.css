@@ -9,11 +9,12 @@ body {
 	background-image:  "img/back.webp";
 	background-size: 120rem;
 }
-
-header {
+#menu {
 	text-align: center;
+	display : flex;
+	justify-content: space-between;
 }
- 
+
 h1 {
 	color: green; 
 }
@@ -21,7 +22,7 @@ h2 {
 color: black;
 }
 h3 {
-	color: blue;
+	color: black;
 }
 
 .container {
@@ -41,3 +42,24 @@ h3 {
 	margin: auto;
 	border: 0;
 }
+
+   
+/*MAIN*/
+
+/*FOOTER*/
+
+footer{
+
+	background:#ccc;
+	
+	position:absolute;
+	
+	bottom:0;
+	
+	width:100%;
+	
+	padding-top:50px;
+	
+	height:50px;
+	
+	}
